@@ -1,0 +1,29 @@
+#block {
+  animation: display 3s infinite;
+}
+#JaneDoe {
+  animation: display1 3s infinite;
+}
+@keyframes display1 {
+  0% {
+    display: none;
+    fill: none;
+  }
+  75% {
+    display: block;
+    mix-blend-mode: darken;
+    fill: #f210c8;
+  }
+}
+
+@keyframes display {
+  0% {
+    display: none;
+    fill: none;
+  }
+  75% {
+    display: block;
+    mix-blend-mode: darken;
+    stroke: #f210c8;
+  }
+}
